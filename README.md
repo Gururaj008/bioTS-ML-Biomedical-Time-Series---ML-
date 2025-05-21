@@ -17,7 +17,4 @@ Electrocardiogram (ECG) signals often contain nonlinear patterns and subtle dyna
 
 Recurrence plots can help detect arrhythmias, noise, and other dynamical behaviors in cardiac data, making them a valuable tool for research and clinical decision support.
 
----
-
-## 📁 Repository Structure
 
