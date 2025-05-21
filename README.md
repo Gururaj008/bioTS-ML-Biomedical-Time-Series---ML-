@@ -1,39 +1,23 @@
-# bioTS-ML-
+# bioTS-ML-Biomedical-Time-Series-ML
 
-# Biomedical-Time-Series-ML
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# ECG Recurrence Plot Analysis with the MIT-BIH Arrhythmia Database
 
+This repository demonstrates how to download, preprocess, and analyze ECG signals from the widely used **MIT-BIH Arrhythmia Database**, culminating in the creation of **recurrence plots** to reveal hidden dynamics in cardiac time series.
 
-The goal of this project is to demonstrate how machine learning techniques—particularly signal embedding, denoising, and classification—can be applied to **noisy biomedical time-series data** for meaningful pattern discovery.
+---
 
 ## 🚀 Project Overview
 
-Many real-world biomedical signals (e.g., ECG, EEG) are nonlinear, multiscale, and noisy, which makes interpretation difficult. This prototype explores:
+Electrocardiogram (ECG) signals often contain nonlinear patterns and subtle dynamics that standard time-domain plots can miss. This project:
 
-- **Wavelet-based signal denoising**
-- **Feature extraction from time-series**
-- **Multiclass classification using ML models**
-- **Visual interpretation using Plotly and Matplotlib**
+1. **Downloads** raw ECG records from the MIT-BIH Arrhythmia Database using the `wfdb` Python package.  
+2. **Loads & normalizes** the multi-lead ECG time series.  
+3. **Extracts** a segment of interest from the signal.  
+4. **Generates** a Recurrence Plot (RP) using `pyts` to visualize recurrences in phase space.  
 
-The project reflects my interest in bridging **signal processing**, **machine learning**, and **healthcare applications**—a key focus of the PhD program at Maastricht University.
-
----
-
-## 🔍 Key Features
-
-- Signal preprocessing using wavelet transforms
-- Sliding window segmentation
-- Feature extraction: statistical, temporal, and frequency-domain
-- Visualizations: time-series plots, feature importance
+Recurrence plots can help detect arrhythmias, noise, and other dynamical behaviors in cardiac data, making them a valuable tool for research and clinical decision support.
 
 ---
 
-## 🧠 Motivation
-
-This repository is a self-initiated project created specifically for demonstrating my:
-- Research curiosity in biomedical signal analysis
-- Ability to design and prototype ML pipelines for complex, real-world data
-- Technical skills in Python, signal processing, and interpretability
-
-
+## 📁 Repository Structure
 
