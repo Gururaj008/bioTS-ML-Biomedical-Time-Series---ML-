@@ -1,7 +1,8 @@
-# bioTS-ML-Biomedical-Time-Series-ML
+# bioTS-ML-
 
+# Biomedical-Time-Series-ML
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-This repository contains a prototype implementation developed as part of my application for the PhD position in **Data-Driven Time-Series Analysis** at **Maastricht University**.
 
 The goal of this project is to demonstrate how machine learning techniques—particularly signal embedding, denoising, and classification—can be applied to **noisy biomedical time-series data** for meaningful pattern discovery.
 
