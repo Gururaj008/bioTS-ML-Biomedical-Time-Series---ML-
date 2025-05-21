@@ -24,8 +24,7 @@ The project reflects my interest in bridging **signal processing**, **machine le
 - Signal preprocessing using wavelet transforms
 - Sliding window segmentation
 - Feature extraction: statistical, temporal, and frequency-domain
-- Classification using Random Forest and XGBoost
-- Visualizations: time-series plots, feature importance, classification reports
+- Visualizations: time-series plots, feature importance
 
 ---
 
