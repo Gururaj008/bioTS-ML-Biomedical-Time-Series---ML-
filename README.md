@@ -1,6 +1,5 @@
 # bioTS-ML-Biomedical-Time-Series-ML
 
-# Biomedical Time Series ML Prototype
 
 This repository contains a prototype implementation developed as part of my application for the PhD position in **Data-Driven Time-Series Analysis** at **Maastricht University**.
 
