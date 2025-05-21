@@ -1,4 +1,5 @@
-# bioTS-ML-Biomedical-Time-Series-ML
+# bioTS-ML
+# Biomedical-Time-Series-ML
 
 # ECG Recurrence Plot Analysis with the MIT-BIH Arrhythmia Database
 
